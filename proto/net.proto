@@ -263,13 +263,6 @@ message NetworkFormat {
     FFN_ACTIVATION_RELU_2 = 8;
   }
   optional FfnActivation ffn_activation = 9;
-
-  enum AttentionPolicyActivation {
-    ATTENTION_POLICY_ACTIVATION_SELU = 0;
-    ATTENTION_POLICY_ACTIVATION_MISH = 1;
-    ATTENTION_POLICY_ACTIVATION_RELU = 3;
-  }
-  optional AttentionPolicyActivation attention_policy_activation = 10;
 }
 
 message Format {
